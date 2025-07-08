@@ -1,0 +1,32 @@
+import React from "react";
+import mock01 from '../assets/images/mock01.png';
+import mock02 from '../assets/images/mock02.png';
+import mock03 from '../assets/images/mock03.png';
+import '../assets/styles/Project.scss';
+
+function Project() {
+    return(
+    <div className="projects-container" id="projects">
+        <h1>Personal Projects</h1>
+        <div className="projects-grid">
+            <div className="project">
+                <a href="https://job-listing-portal-henna.vercel.app/" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://job-listing-portal-henna.vercel.app/" target="_blank" rel="noreferrer"><h2>Job Listing Portal</h2></a>
+                <p>A full-stack MERN application that connects recruiters and job seekers with real-time listings and secure user authentication. Features role-based access, resume uploads, and responsive UI with Material-UI.</p>
+            </div>
+            <div className="project">
+                <a href="https://population-web.vercel.app/" target="_blank" rel="noreferrer"><img src={mock02} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://population-web.vercel.app/" target="_blank" rel="noreferrer"><h2>Population Density Website</h2></a>
+                <p>An interactive data visualization tool that displays population statistics using charts and maps. Built with React and external APIs to provide demographic insights and trends.</p>
+            </div>
+            <div className="project">
+                <a href="https://rms-sand-eight.vercel.app/" target="_blank" rel="noreferrer"><img src={mock03} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://rms-sand-eight.vercel.app/" target="_blank" rel="noreferrer"><h2>Result Management System</h2></a>
+                <p>A web-based system for administrators to upload and manage student marks via Excel sheets. Students can securely view real-time updates across attendance, assessments, and projects.</p>
+            </div>
+        </div>
+    </div>
+    );
+}
+
+export default Project;
