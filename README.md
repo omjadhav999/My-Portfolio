@@ -15,4 +15,5 @@ This is my personal portfolio website showcasing my projects, skills, and experi
 
 ## Demo
 
-![image](https://github.com/user-attachments/assets/84b2795f-39df-43cb-86bb-488a99987947)
+![image](https://github.com/user-attachments/assets/a2172657-0177-451c-9e4a-35043085ea99)
+
