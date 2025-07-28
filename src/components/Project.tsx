@@ -1,7 +1,7 @@
-import React from "react";
 import mock01 from '../assets/images/mock01.png';
 import mock02 from '../assets/images/mock02.png';
 import mock03 from '../assets/images/mock03.png';
+import mock04 from '../assets/images/mock04.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -9,6 +9,11 @@ function Project() {
     <div className="projects-container" id="projects">
         <h1>Personal Projects</h1>
         <div className="projects-grid">
+            <div className="project">
+                <a href="https://e-com-r9m3.vercel.app/" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://e-com-r9m3.vercel.app/" target="_blank" rel="noreferrer"><h2>E-Com Website</h2></a>
+                <p>Created a MERN stack e-commerce platform with real-time product updates, secure login system, and interactive cart functionality. Enabled role-based access for admins and users, integrated PayPal for seamless payments, and delivered a fully responsive user experience.</p>
+            </div>
             <div className="project">
                 <a href="https://job-listing-portal-henna.vercel.app/" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://job-listing-portal-henna.vercel.app/" target="_blank" rel="noreferrer"><h2>Job Listing Portal</h2></a>
